@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(122, 96, -1):
-    print("{:c}".format(i - 32) if i % 2 != 0 else "{:c}".format(i), end="")
+import sys
+sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
+sys.exit(1)
