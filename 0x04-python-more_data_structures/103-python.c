@@ -46,3 +46,4 @@ void print_python_list(PyObject *p)
                 if (!strcmp(type, "bytes"))
                         print_python_bytes(list->ob_item[i]);
         }
+}
