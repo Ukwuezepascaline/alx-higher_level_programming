@@ -1,7 +1,10 @@
-
 #!/usr/bin/python3
-def complex_delete(a_dictionary, value):
-    for key in list(a_dictionary):
-        if a_dictionary[key] == value:
-            del a_dictionary[key]
-    return a_dictionary
+def weight_average(my_list=[]):
+    if not my_list:
+        return 0
+    average = 0
+    div = 0
+    for tup in my_list:
+        average += tup[0] * tup[1]
+        div += tup[1]
+    return float(average / div)
